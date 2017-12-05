@@ -29,5 +29,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     compile 'io.keen:keen-client-api-android:5.2.0@aar'
-    compile 'io.keen:keen-client-api-query:5.2.0'
+    compile 'io.keen:keen-client-api-java:5.2.0'
 }
