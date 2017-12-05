@@ -7,9 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import io.keen.client.android.AndroidKeenClientBuilder;
-import io.keen.client.java.JavaKeenClientBuilder;
 import io.keen.client.java.KeenClient;
-import io.keen.client.java.KeenLogging;
 import io.keen.client.java.KeenProject;
 
 public class MainActivity extends AppCompatActivity {
@@ -21,8 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         KeenClient client = new AndroidKeenClientBuilder(this).build();
-        KeenLogging.enableLogging();
-
         KeenClient.initialize(client);
 
         // This is your actual Project ID and Write Key
